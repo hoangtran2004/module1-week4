@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<script>
+    let Apple = {
+        type: 'big',
+        color: 'red',
+        getInfo: function () {
+            return this.color + ' ' + this.type + ' apple';
+        }
+    }
+    Apple.color = 'blue';
+    alert(Apple.getInfo());
+</script>
+</body>
+</html>
