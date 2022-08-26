@@ -1,5 +1,5 @@
 //nhập ảnh
-var canvas = document.getElementById('gamezone');
+var canvas = document.getElementById('game');
 
 
 var context = canvas.getContext('2d');
@@ -72,5 +72,4 @@ function run() {
 document.addEventListener("keydown", function () {
     bird.y -= 50;
 })
-
-document.getElementById('start ').addEventListener()
+run();
